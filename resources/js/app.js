@@ -6,3 +6,11 @@
  */
 
 require('./bootstrap');
+require('./accordion');
+require('./dropdown');
+require('./feedback');
+require('./image-swap');
+require('./modal');
+require('./puzzle');
+require('./registration');
+require('./youtube');
