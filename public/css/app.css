@@ -8,7 +8,7 @@
   font-weight: 300;
   src: url(/fonts/fira-sans-v8-latin_cyrillic-300.eot?801d1097475fe15b0a16c6a9aab1d0ad);
   /* IE9 Compat Modes */
-  src: local("Fira Sans Light"), local("FiraSans-Light"), url(/fonts/fira-sans-v8-latin_cyrillic-300.eot?801d1097475fe15b0a16c6a9aab1d0ad) format("embedded-opentype"), url(/fonts/fira-sans-v8-latin_cyrillic-300.woff2?b0dbee0d9c4c19538431f698607fbb66) format("woff2"), url(/fonts/fira-sans-v8-latin_cyrillic-300.woff?ae3e9066521fba4106f163cf7d89dc95) format("woff"), url(/fonts/fira-sans-v8-latin_cyrillic-300.ttf?92f05bd33464b18cfdd030f9b75df774) format("truetype"), url(/fonts/fira-sans-v8-latin_cyrillic-300.svg?f52fc6e50274fa5abecbeb3ea621a9e4) format("svg");
+  src: local("Fira Sans Light"), local("FiraSans-Light"), url(/fonts/fira-sans-v8-latin_cyrillic-300.eot?801d1097475fe15b0a16c6a9aab1d0ad) format("embedded-opentype"), url(/fonts/fira-sans-v8-latin_cyrillic-300.woff2?b0dbee0d9c4c19538431f698607fbb66) format("woff2"), url(/fonts/fira-sans-v8-latin_cyrillic-300.woff?ae3e9066521fba4106f163cf7d89dc95) format("woff"), url(/fonts/fira-sans-v8-latin_cyrillic-300.ttf?92f05bd33464b18cfdd030f9b75df774) format("truetype"), url(/fonts/fira-sans-v8-latin_cyrillic-300.svg?d9e39fed62fd41d2d18f93d3ac29bd27) format("svg");
   /* Legacy iOS */
 }
 
@@ -20,7 +20,7 @@
   font-weight: 400;
   src: url(/fonts/fira-sans-v8-latin_cyrillic-regular.eot?03b29fe80540b2f3c219749e91067b40);
   /* IE9 Compat Modes */
-  src: local("Fira Sans Regular"), local("FiraSans-Regular"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.eot?03b29fe80540b2f3c219749e91067b40) format("embedded-opentype"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.woff2?46ad7d2a1333b988a5f2a8733e03f8c8) format("woff2"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.woff?bd834d9ba3cf0a84427a72264b8ddff6) format("woff"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.ttf?dc0e9d3e8601354fde1099c882b53748) format("truetype"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.svg?7307389c2218fa743b42f50e6452bee6) format("svg");
+  src: local("Fira Sans Regular"), local("FiraSans-Regular"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.eot?03b29fe80540b2f3c219749e91067b40) format("embedded-opentype"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.woff2?46ad7d2a1333b988a5f2a8733e03f8c8) format("woff2"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.woff?bd834d9ba3cf0a84427a72264b8ddff6) format("woff"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.ttf?dc0e9d3e8601354fde1099c882b53748) format("truetype"), url(/fonts/fira-sans-v8-latin_cyrillic-regular.svg?4b7b6e16dbf14b034cee08811ab6e6e9) format("svg");
   /* Legacy iOS */
 }
 
@@ -32,7 +32,7 @@
   font-weight: 300;
   src: url(/fonts/fira-sans-v8-latin_cyrillic-300italic.eot?dbdefa0912599134d5d094846978709d);
   /* IE9 Compat Modes */
-  src: local("Fira Sans Light Italic"), local("FiraSans-LightItalic"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.eot?dbdefa0912599134d5d094846978709d) format("embedded-opentype"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.woff2?378fb1ae697fcbe5d4ff5f2feb69ab40) format("woff2"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.woff?0615ffcc65d3652ade6702e6ad78147f) format("woff"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.ttf?0cb31dce0668cfe0f3cea34e611e9874) format("truetype"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.svg?631c37bed19f25d79ed42d038dab1295) format("svg");
+  src: local("Fira Sans Light Italic"), local("FiraSans-LightItalic"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.eot?dbdefa0912599134d5d094846978709d) format("embedded-opentype"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.woff2?378fb1ae697fcbe5d4ff5f2feb69ab40) format("woff2"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.woff?0615ffcc65d3652ade6702e6ad78147f) format("woff"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.ttf?0cb31dce0668cfe0f3cea34e611e9874) format("truetype"), url(/fonts/fira-sans-v8-latin_cyrillic-300italic.svg?0bab50699fc0e8c5d261ded1d149a3f7) format("svg");
   /* Legacy iOS */
 }
 
@@ -850,7 +850,7 @@ input {
 .button_theme_flat,
 .button_theme_flat-reverse {
   font-family: "Fira Sans", "Arial", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -946,7 +946,7 @@ input {
 
 .title {
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2.4rem;
   text-transform: uppercase;
   font-family: "Fira Sans", "Arial", sans-serif;

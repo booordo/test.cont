@@ -19482,7 +19482,9 @@ if (token) {
 
 (function () {
   window.addEventListener("load", function () {
-    var sectors = Array.prototype.slice.call(document.getElementById("sectorGroup").children);
+    var sectorGroup = document.getElementById("sectorGroup");
+    if (sectorGroup == undefined) return;
+    var sectors = Array.prototype.slice.call(sectorGroup.children);
     sectors.forEach(function (el) {
       el.addEventListener("mouseover", onMouseOver);
       el.addEventListener("mouseout", onMouseOut);
@@ -19652,8 +19654,8 @@ function onYouTubeIframeAPIReady() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\cont.md\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\cont.md\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\test.cont\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\test.cont\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

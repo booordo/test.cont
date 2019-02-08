@@ -1,6 +1,8 @@
 (function () {
     window.addEventListener("load", function () {
-        var sectors = Array.prototype.slice.call(document.getElementById("sectorGroup").children);
+        var sectorGroup = document.getElementById("sectorGroup");
+        if (sectorGroup == undefined) return;
+        var sectors = Array.prototype.slice.call(sectorGroup.children);
         sectors.forEach(function (el) {
             el.addEventListener("mouseover", onMouseOver);
             el.addEventListener("mouseout", onMouseOut);
