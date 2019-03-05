@@ -15,31 +15,7 @@
     </div>
     <div class="header__navbar" id="navbar-top">
         <div class="inner">
-            @component('default.components.navbar.top', ['items' => [
-                [
-                    'title' => 'Главная',
-                    'link' => '/'
-                ],
-                [
-                    'title' => 'О компании',
-                    'link' => '',
-                    'items' => [
-                        [
-                            'title' => 'История',
-                            'link' => '/about/history'
-                        ],
-                        [
-                            'title' => 'Партнерам',
-                            'link' => '/about/partners'
-                        ],
-                        [
-                            'title' => 'Разработчикам',
-                            'link' => '/about/developers'
-                        ]
-                    ]
-                ]
-            ]])
-            @endcomponent
+            @include('default.blocks.navbar.top')
         </div>
     </div>
 </div>

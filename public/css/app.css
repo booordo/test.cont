@@ -1719,8 +1719,26 @@ input {
   white-space: nowrap;
 }
 
+.navbar__subsublist_top {
+  display: none;
+  background-color: #2a88c8;
+  position: absolute;
+  z-index: 999;
+  left: 100%;
+  margin: 0;
+  padding: 15px 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
 .navbar__sublist_top_actived {
   display: block;
+}
+
+@media only screen and (min-width: 901px) {
+  .navbar__subitem_top:hover .navbar__subsublist_top {
+    display: block;
+  }
 }
 
 .navbar__subitem_top:hover {

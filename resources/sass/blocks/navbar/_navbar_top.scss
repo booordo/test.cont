@@ -56,11 +56,30 @@
   white-space: nowrap;
 }
 
+.navbar__subsublist_top {
+  display: none;
+  background-color: #2a88c8;
+  position: absolute;
+  z-index: 999;
+  left: 100%;
+  margin: 0;
+  padding: 15px 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
 .navbar__sublist_top_actived {
   display: block;
 }
 
 .navbar__subitem_top {
+  @media only screen and (min-width: 901px) {
+    &:hover {
+      .navbar__subsublist_top {
+        display: block;
+      }
+    }
+  }
   &:hover {
     background-color: #3498db;
   }

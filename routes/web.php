@@ -12,6 +12,8 @@
 */
 
 Route::get('/', 'PageController@index');
-Route::get('/about/history', 'PageController@about_history');
-Route::get('/about/partners', 'PageController@about_partners');
-Route::get('/about/developers', 'PageController@about_developers');
+Route::get('/about', 'PageController@about');
+Route::get('/news', 'PageController@news');
+Route::get('/reviews', 'PageController@reviews');
+Route::get('/contacts', 'PageController@contacts');
+Route::get('/price-list', 'PageController@priceList');

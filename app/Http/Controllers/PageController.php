@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Navigation;
 
 class PageController extends Controller
 {
@@ -11,18 +12,28 @@ class PageController extends Controller
         return view('default.pages.index');
     }
 
-    public function about_history()
+    public function about()
     {
-        return view('default.pages.about.history');
+        return view('default.pages.about');
     }
 
-    public function about_partners()
+    public function news()
     {
-        return view('default.pages.about.partners');
+        return view('default.pages.news');
     }
 
-    public function about_developers()
+    public function reviews()
     {
-        return view('default.pages.about.developers');
+        return view('default.pages.reviews');
+    }
+
+    public function contacts()
+    {
+        return view('default.pages.contacts');
+    }
+
+    public function priceList()
+    {
+        return view('default.pages.price_list');
     }
 }
