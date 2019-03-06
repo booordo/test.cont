@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Navigation;
 
 class PageController extends Controller
 {
@@ -15,11 +14,6 @@ class PageController extends Controller
     public function about()
     {
         return view('default.pages.about');
-    }
-
-    public function news()
-    {
-        return view('default.pages.news');
     }
 
     public function reviews()
@@ -34,6 +28,6 @@ class PageController extends Controller
 
     public function priceList()
     {
-        return view('default.pages.price_list');
+        return view('default.pages.price-list');
     }
 }
