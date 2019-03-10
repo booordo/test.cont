@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers\Solutions\Contabilizare40;
 
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 class PageController extends Controller
 {
     private $viewPath = 'default.pages.solutions.contabilizare-4-0';
 
-    public function erpSystem(Request $request)
+    public function erpSystem()
     {
         return view($this->viewPath . '.erp-system');
     }

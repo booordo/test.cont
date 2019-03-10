@@ -16,11 +16,15 @@ Route::get('/about', 'PageController@about');
 Route::get('/reviews', 'PageController@reviews');
 Route::get('/contacts', 'PageController@contacts');
 Route::get('/price-list', 'PageController@priceList');
-Route::get('/solutions/contabilizare-4-0/erp-system', 'Solutions\Contabilizare40\PageController@erpSystem');
-Route::get('/solutions/contabilizare-4-0/agricultural-management', 'Solutions\Contabilizare40\PageController@agriculturalManagement');
-Route::get('/solutions/contabilizare-4-0/construction-management', 'Solutions\Contabilizare40\PageController@constructionManagement');
-Route::get('/solutions/contabilizare-5-0/description', 'Solutions\Contabilizare50\PageController@description');
-Route::get('/solutions/contabilizare-5-0/developers', 'Solutions\Contabilizare50\PageController@developers');
-Route::get('/solutions/contabilizare-5-0/download', 'Solutions\Contabilizare50\PageController@download');
-Route::get('/solutions/contabilizare-5-0/install', 'Solutions\Contabilizare50\PageController@install');
-Route::get('/solutions/contabilizare-5-0/partners', 'Solutions\Contabilizare50\PageController@partners');
+Route::prefix('/solutions/contabilizare-4-0')->group(function () {
+    Route::get('erp-system', 'SolutionController@cont4ErpSystem');
+    Route::get('agricultural-management', 'SolutionController@cont4AgriculturalManagement');
+    Route::get('construction-management', 'SolutionController@cont4ConstructionManagement');
+});
+Route::prefix('/solutions/contabilizare-5-0')->group(function () {
+    Route::get('description', 'SolutionController@cont5Description');
+    Route::get('developers', 'SolutionController@cont5Developers');
+    Route::get('download', 'SolutionController@cont5Download');
+    Route::get('install', 'SolutionController@cont5Install');
+    Route::get('partners', 'SolutionController@cont5Partners');
+});
