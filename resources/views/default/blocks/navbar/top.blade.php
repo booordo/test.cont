@@ -1,5 +1,5 @@
 <ul class="navbar-top navbar-top_level_1">
-    @foreach ($navbarItems as $item1)
+    @foreach ($navigationTree as $item1)
         <li class="navbar-top__item navbar-top__item_level_1 {{ Request::segment(1, "") == explode('/', $item1['path'])[1] ? "navbar-top__item_active" : "" }}">
         <a class="navbar-top__link navbar-top__link_level_1" {{ $item1['children']->isEmpty() ? "href=" . $item1['path'] : "" }}>{{ $item1['title'] }}</a>
             @if (!$item1['children']->isEmpty())
