@@ -2404,7 +2404,7 @@ input {
 .feedback__group {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .feedback__input {
@@ -3418,7 +3418,7 @@ input {
   display: block;
 }
 
-.navbar-top__item_level_1.navbar-top__item_active {
+.navbar-top__item_level_1.active {
   background-color: #3498db;
 }
 
@@ -3435,7 +3435,7 @@ input {
   display: block;
 }
 
-.navbar-top__item_level_2.navbar-top__item_active {
+.navbar-top__item_level_2.active {
   background-color: #258cd1;
 }
 
@@ -3447,7 +3447,7 @@ input {
   background-color: #1d6fa5;
 }
 
-.navbar-top__item_level_3.navbar-top__item_active {
+.navbar-top__item_level_3.active {
   background-color: #1d6fa5;
 }
 
